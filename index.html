@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Mysterious Number</title>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1 id="answer"><span id="display-answer-num">???</span></h1>
+    <div class="basic-text">Your number:</div>
+    <input type="number" id="your-guess" /><br /><br /><br />
+    <button id="clickButton" class="basic-text">Click me to check</button
+    ><br /><br /><br />
+    <div id="status" class="basic-text">Waiting for an answer...</div>
+    <br /><br /><br />
+
+    <div id="score" class="basic-text">
+      Current Score:
+      <span id="current-score-num" class="displayed-numbers">20</span>
+    </div>
+    <button id="again-btn" class="basic-text">Again!</button>
+    <!--if #hints-remaining is 1, display 'You have one hint to use', else, 'You have no more hints'-->
+    <script src="script.js"></script>
+  </body>
+</html>
